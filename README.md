@@ -1,9 +1,10 @@
 ## TODO
-ToDo searches for all `TODO:`s in your current directory and report them.  
+To Do searches for all `TODO:`s in your current directory and report them.  
 
 ### Install
+
 ```sh
-$ cargo install todo
+$ wget -qO- https://github.com/barbosaigor/todo/releases/download/v0.0.0-alpha/todo-linux-amd64.tar.gz | sudo tar xvz -C /usr/local/bin
 ```  
 
 ### Usage  
